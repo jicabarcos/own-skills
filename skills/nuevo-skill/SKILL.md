@@ -1,6 +1,6 @@
 ---
 name: nuevo-skill
-description: Crear un skill nuevo y guardarlo en el repo mis-skills (compartido) o en .claude/skills del proyecto actual. Usar cuando el usuario pida convertir un procedimiento en skill.
+description: Crear un skill nuevo y guardarlo en el repo own-skills (compartido) o en .claude/skills del proyecto actual. Usar cuando el usuario pida convertir un procedimiento en skill.
 ---
 
 # Crear un skill nuevo
@@ -13,7 +13,7 @@ description: Crear un skill nuevo y guardarlo en el repo mis-skills (compartido)
    - `description`: una oración que diga *cuándo* usarlo. Es lo que decide si se activa.
    - Cuerpo: pasos concretos, comandos exactos, errores comunes.
 4. Dónde guardarlo:
-   - Compartido → clonar `mis-skills`, crear `skills/<nombre>/SKILL.md`, commit y push.
+   - Compartido → clonar `own-skills`, crear `skills/<nombre>/SKILL.md`, commit y push.
    - Local → `.claude/skills/<nombre>/SKILL.md` dentro del repo del proyecto.
 5. Si el skill necesita scripts o archivos de referencia, ponelos en la misma carpeta
    y referencialos desde el SKILL.md.

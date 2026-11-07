@@ -1,4 +1,4 @@
-# mis-skills
+# own-skills
 
 Skills e instrucciones compartidas para todas mis sesiones cloud de Claude Code.
 
@@ -12,9 +12,9 @@ skills/
 ```
 
 ## Puesta en marcha (una sola vez)
-1. Crear el repo **público** `mis-skills` en GitHub y subir esto.
+1. Crear el repo **público** `own-skills` en GitHub y subir esto.
 2. En Claude Code (web) → configuración del entorno → **Setup script**:
-   pegar el contenido de `setup.sh` (con tu usuario).
+   pegar el contenido de `setup.sh` .
 3. Usar ese mismo entorno para todas las sesiones.
 
 ## Agregar un skill
